@@ -1,29 +1,22 @@
-import React,{Component} from 'react';
+import React from 'react';
 import {
     NavLink
   } from "react-router-dom";
 import '../Menu/Menu.css'
 
 
-class Menu extends Component {
-    constructor(props){
-        super(props);
-        this.state={
-            Contens: props.Contens,
-            MenuIndex: '',
-        }
-    }
-    render(){
+    const Menu =(props)=> {
         return <div className="Menu">
             <label>功能模块</label>
             <ul>
-            {this.state.Contens.map((items,index)=>{
+            {props.Contens.map((items,index)=>{
                 return <li 
                             key={index}
-                            onClick={this.props.onClick(index)}
+                            onClick={()=>props.onClick(items)}
                             >
                             <NavLink 
                                 to={'/'+items.Name } 
+                                activeClassName='active'
                             >
                                 {items.Name}
                             </NavLink>
@@ -35,6 +28,5 @@ class Menu extends Component {
             
         </div>
     }
-}
 
 export default Menu;

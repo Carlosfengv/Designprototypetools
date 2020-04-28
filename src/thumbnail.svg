@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="270px" height="120px" viewBox="0 0 270 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>画板</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="270" height="120"></rect>
+    </defs>
+    <g id="画板" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#EFF4F9" x="0" y="0" width="270" height="120"></rect>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="矩形"></g>
+        <g id="Glyph/002.Object/055.Project/Black" mask="url(#mask-2)">
+            <g transform="translate(105.000000, 30.000000)">
+                <path d="M52.5,12.5 L52.5,52.5 L12.5,52.5 C9.73857625,52.5 7.5,50.2614237 7.5,47.5 C7.5,44.7385763 9.73857625,42.5 12.5,42.5 C15.2614237,42.5 17.5,44.7385763 17.5,47.5 L17.5,12.5 L52.5,12.5 Z M35,20.5322266 L26.762085,28.7701416 L26.762085,42.5 L43.237915,42.5 L43.237915,28.7701416 L35,20.5322266 Z" id="Combined-Shape" fill="#B6C2CD"></path>
+                <path d="M17.5,47.5 C17.5,44.7385763 15.2614237,42.5 12.5,42.5 C9.73857625,42.5 7.5,44.7385763 7.5,47.5 L7.5,12.5 C7.5,9.73857625 9.73857625,7.5 12.5,7.5 C15.2614237,7.5 17.5,9.73857625 17.5,12.5 L17.5,47.5 Z" id="Combined-Shape" fill="#324558"></path>
+                <polygon id="Rectangle-18" fill="#324558" points="26.762085 28.7701416 35 20.5322266 43.237915 28.7701416 43.237915 42.5 26.762085 42.5"></polygon>
+            </g>
+        </g>
+        <g id="Glyph/002.Object/055.Project/Black" opacity="0.202241443" mask="url(#mask-2)">
+            <g transform="translate(164.000000, 37.000000)">
+                <path d="M105,25 L105,105 L25,105 C19.4771525,105 15,100.522847 15,95 C15,89.4771525 19.4771525,85 25,85 C30.5228475,85 35,89.4771525 35,95 L35,25 L105,25 Z M70,41.0644531 L53.5241699,57.5402832 L53.5241699,85 L86.4758301,85 L86.4758301,57.5402832 L70,41.0644531 Z" id="Combined-Shape" fill="#B6C2CD"></path>
+                <path d="M35,95 C35,89.4771525 30.5228475,85 25,85 C19.4771525,85 15,89.4771525 15,95 L15,25 C15,19.4771525 19.4771525,15 25,15 C30.5228475,15 35,19.4771525 35,25 L35,95 Z" id="Combined-Shape" fill="#324558"></path>
+                <polygon id="Rectangle-18" fill="#324558" points="53.5241699 57.5402832 70 41.0644531 86.4758301 57.5402832 86.4758301 85 53.5241699 85"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

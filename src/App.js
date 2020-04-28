@@ -13,15 +13,26 @@ class App extends Component {
       WebTitle: Data.WebTitle,
       logo: Data.imgURL,
       Contens: Data.Contens,
-      functionName: Data.Contens.Name,
-      functionIndex: Data.Contens.Decription,
+      functionName: Data.Contens[0],
+      Decription:'',
+      functionItem: [],
     }
   }
-  macthPath = () =>{
-      const query = this.props.match
-      const fuchlist = [...this.state.Contens]
-      console.log(query)
+  
+  getMenuIndex= (e) =>{
+    this.setState({
+      functionName: e.Name,
+      Decription: e.Decription,
+      functionItem: e.functionList
+    })
+    console.log(e)
+    console.log(this.state.functionItem)
+
   }
+  componentWillMount(){
+     
+  }
+
   render(){
     return (
       <div className="App">
@@ -32,17 +43,18 @@ class App extends Component {
                 refs={this.Menu}
                 parent={this}
                 Contens={this.state.Contens}
-                onClick={()=>this.macthPath(this)}
+                onClick={this.getMenuIndex}
                 ></Menu>
                 <Route
                   key={this.state.functionName}
                   path={'/:'+this.state.functionName}
-                  children={({ match }) => (
+                  children={
                     <Main 
-                      functionName={this.state.functionName}
-                      Decription={this.props.Decription}
-                      ></Main>
-                  )}
+                      Name={this.state.functionName}
+                      Decription={this.state.Decription}
+                      fuctionItem = {this.state.functionItem}
+                    ></Main>
+                  }
 
                   >
                 </Route>

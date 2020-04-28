@@ -1,14 +1,15 @@
 import React from 'react';
 import '../Main/Item.css';
+import thumbnail from '../../thumbnail.svg';
 
-const Item =()=>{
-    return <a href="#"><div className="Card">
-                <img src="https://cdn.pixabay.com/photo/2020/04/22/01/59/hands-5075436_1280.jpg"></img>
+const Item =(props)=>{
+    return <a href="#" target="view_window"><div className="Card">
+                <img src={thumbnail}></img>
                 <div className="title">
-                    <h5>集群概览</h5>
-                    <p>对集群的资源用量，以及开启的服务等进行统计，方便管理员快速查看集群状态</p>
+                <h5> {props.Name}</h5>
+                    <p>{props.Decription}</p>
                 </div>
-                 </div>
+                 </div>git
     </a>
 }
 
